@@ -1,0 +1,86 @@
+<include file='Template:head' />
+<include file='lmenu' />
+<div id='content'>
+	<h3>订单查询</h3>
+	<form action='' method='get'>
+		<div class='orderquery'>
+			<ul>
+				<li>
+					<label>关键字：</label>
+					<div class='select'>
+						<input type='text' value='订单号' readonly/>
+						<span>
+							<ul class='option'>
+								<li>订单号</li>
+								<li>收货人</li>
+								<li>货物名称</li>
+							</ul>
+						</span>
+					</div>
+					<input type='tex' value='请输入订单号' class='keys'/>
+				</li>
+				<li>
+					<label>时间范围：</label>
+					<input type='text' value='2013-02-01' class='querytime' readonly/> -
+					<input type='text' value='2013-05-01' class='querytime' readonly/>
+					<label>付款方式：</label>
+					<div class='select'>
+						<input type='text' value='全部' readonly/>
+						<span>
+							<ul class='option'>
+								<li>现金</li>
+								<li>到付</li>
+								<li>月结</li>
+								<li>网上支付</li>
+							</ul>
+						</span>
+					</div>
+					<label>物流状态：</label>
+					<div class='select'>
+						<input type='text' value='全部' readonly/>
+						<span>
+							<ul class='option'>
+								<li>全部</li>
+								<li>待受理</li>
+								<li>已受理</li>
+							</ul>
+						</span>
+					</div>
+					<input type='submit' value='查询' class='submit'/>
+				</li>
+			</ul>
+		</div>
+	</form>
+	<table>
+		<thead>
+			<tr>
+				<td class='td_one'>订单号</td>
+				<td class='td_two'>收货人</td>
+				<td class='td_three'>下单日期</td>
+				<td class='td_four'>物流状态</td>
+				<td class='td_five'>支付方式</td>
+				<td class='td_six'>操作</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1005030213</td>
+				<td>张三丰</td>
+				<td>2013-01-02 20:03:22</td>
+				<td>待受理</td>
+				<td>现金</td>
+				<td><a href='#'>删除</a></td>
+			</tr>
+			<tr>
+				<td>1005030213</td>
+				<td>张三丰</td>
+				<td>2013-01-02 20:03:22</td>
+				<td>运输中</td>
+				<td>现金</td>
+				<td><a href='#'>查看</a></td>
+			</tr>
+		</tbody>
+	</table>
+	<p class='tips'>对不起，没有对应查询条件的订单！请检查查询条件。</p>
+</div>
+<include file='Template:foot' />

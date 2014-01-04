@@ -1,0 +1,58 @@
+<include file='Template:head' />
+<include file='lmenu' />
+<div id='content'>
+	<h3>咨询|建议|投诉</h3>
+	<form action='' method='post'>
+		<ul class='fcom'>
+			<li>
+				<label>您的姓名：</label>
+				<input type='text' />
+				<font>*</font>
+			</li>
+			<li>
+				<label>您的电话：</label>
+				<input type='text' />
+				<font>*</font>
+			</li>
+			<li>
+				<label>运单号：</label>
+				<input type='text' />
+			</li>
+			<li>
+				<label>问题类型：</label>
+				<div class='select'>
+					<input type='text' value='咨询' readonly/>
+					<span>
+						<ul class='option'>
+							<li>咨询</li>
+							<li>建议</li>
+							<li>投诉</li>
+						</ul>
+					</span>
+				</div>
+				<font>*</font>
+			</li>
+			<li class='title'>
+				<label>标题：</label>
+				<input type='text' />
+				<font>*</font>
+			</li>
+			<li class='content'>
+				<label>内容：</label>
+				<textarea></textarea>
+				<font>*</font>
+			</li>
+			<li class='code'>
+				<label>验证码：</label>
+				<input type='text' />
+				<img src='' alt='验证码' />
+				<font>*</font>
+			</li>
+			<li>
+				<input type='reset' value='重置' />
+				<input type='submit' value='提交' />
+			</li>
+		</ul>
+	</form>
+</div>
+<include file='Template:foot' />

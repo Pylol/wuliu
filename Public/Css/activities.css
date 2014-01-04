@@ -1,0 +1,76 @@
+#content label{
+	color: #729DA0;
+}
+.topac{
+	width: 700px;
+	margin-top: 10px;
+	float: left;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 20px;
+}
+.topac img{
+	padding: 1px;
+	border: 1px solid #ddd;
+	width: 700px;
+}
+.topac .actitle{
+	display: block;
+	width: 700px;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-decoration: none;
+	color: #033BA0;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.topac ul li{
+	width: 340px;
+	float: left;
+	font-size: 13px;
+	color: #48585E;
+	line-height: 20px;
+}
+.list {
+	width: 700px;
+	float: left;
+}
+.list > li {
+	min-height: 140px;
+	border-bottom: 1px solid #ddd;
+	padding-top: 10px;
+}
+.list img {
+	width: 160px;
+	height: 80px;
+	float: left;
+	padding: 1px;
+	border: 1px solid #ddd;
+}
+.list ul {
+	width: 520px;
+	float: right;
+	min-height: 100px;
+}
+.list .actitle{
+	width: 520px;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	float: right;
+	text-decoration: none;
+	color: #033BA0;
+	font-weight: bold;
+	font-size: 16px;
+}
+.list ul li {
+	width: 500px;
+	float: left;
+	font-size: 13px;
+	color: #48585E;
+	line-height: 20px;
+}
+.actitle:hover{
+	text-decoration: underline;
+}

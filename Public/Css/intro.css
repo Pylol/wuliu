@@ -1,0 +1,16 @@
+
+#content pre {
+	font-size: 14px;
+	line-height: 28px;
+	font-family: "微软雅黑",Tahoma,sans-serif;
+	width: 700px;
+	white-space:pre-wrap;
+	color: #3B4949;
+}
+#content img{
+	width: 698px;
+	height: 225px;
+	border: 1px solid #ddd;
+	padding: 1px;
+	margin-top: 5px;
+}

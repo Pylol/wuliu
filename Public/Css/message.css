@@ -1,0 +1,33 @@
+
+#content table{
+	width: 700px;
+	float: left;
+	margin-top: 10px;
+	font-size: 12px;
+	border-collapse:collapse;
+}
+#content thead td{
+	background: #D5E8E9;
+	color: #2D2D2D;
+	padding: 5px 0;
+	font-weight: bold;
+}
+#content td{
+	text-align: center;
+	border: 1px solid #709C9E;
+	color: #49595F;
+	padding: 10px 0;
+}
+#content td a{
+	color: #0082CB;
+	text-decoration: none;
+	padding: 0 5px;
+}
+#content td a:hover{
+	text-decoration: underline;
+}
+p.page{
+	font-size: 13px;
+	margin-top: 10px;
+	float: right;
+}

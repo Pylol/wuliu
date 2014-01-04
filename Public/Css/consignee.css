@@ -1,0 +1,147 @@
+
+.select {
+	width: 90px;
+	height: 20px;
+	border: 1px solid #ccc;
+	display: inline-block;
+	float: left;
+}
+.select input[type='text'] {
+	width: 68px;
+	width: 64px\9;
+	height: 20px;
+	height: 18px\9;
+	border: 0 ;
+	float: left;
+	display: inline-block;
+	font-size: 13px;
+	line-height: 20px;
+	color: #555;
+	padding-left: 3px;
+}
+.select span {
+	width: 21px;
+	height:20px;
+	border-left: 1px solid #ccc;
+	float: left;
+	background: #ddd;
+	position: relative;
+}
+.select span:before{
+	content: '';
+	border: 5px solid transparent;
+	border-top: 5px solid #fff;
+	float: left;
+	margin-top: 8px;
+	margin-left: 6px;
+}
+.select span:hover{
+	background: #6D9A9C;
+}
+.select span:hover .option{
+	display: block;
+}
+.option{
+	width: 90px;
+	border: 1px solid #ccc;
+	float: left;
+	background: #fff;
+	position: absolute;
+	left: -70px;
+	top: 20px;
+	display: none;
+	padding-bottom: 2px;
+}
+.option li {
+	width: 88px;
+	height: 22px;
+	line-height: 22px;
+	font-size: 12px;
+	margin: 0;
+	float: left;
+	color: #555;
+	padding-left: 3px;
+}
+.option li:hover {
+	background: #6D9A9C; 
+	color: #fff;
+}
+
+.query{
+	width: 700px;
+	height: 80px;
+	background: #eee;
+	border-bottom: 1px solid #ccc;
+}
+.query form {
+	float: left;
+	margin-top: 25px;
+}
+.query label{
+	font-size: 13px;
+	float: left;
+	width: 80px;
+	height: 22px;
+	line-height: 22px;
+	float: left;
+	text-align: right;
+}
+.query form>input[type='text']{
+	float: left;
+	width: 150px;
+	height: 22px;
+	margin-left: 10px;
+	border: 1px solid #ccc;
+}
+.query form>input[type='submit']{
+	width: 62px;
+	height: 22px;
+	border: 0;
+	margin-left: 10px;
+	background: url(../Images/bt_submit.png) no-repeat left top;
+}
+.query form>input[type='submit']:hover{
+	background: url(../Images/bt_submit.png) no-repeat 0 33%;
+}
+
+#content table{
+	width: 700px;
+	float: left;
+	margin-top: 30px;
+	font-size: 12px;
+	border-collapse:collapse;
+}
+#content thead td{
+	background: #D5E8E9;
+	color: #2D2D2D;
+	padding: 5px 0;
+	font-weight: bold;
+}
+#content td{
+	text-align: center;
+	border: 1px solid #709C9E;
+	color: #49595F;
+	padding: 10px 0;
+}
+#content td a{
+	color: #0082CB;
+	text-decoration: none;
+	padding: 0 5px;
+}
+#content td a:hover{
+	text-decoration: underline;
+}
+p.newp_add {
+	margin-top: 10px;
+	width: 700px;
+	height: 30px;
+	float: left;
+	background: url(../Images/newperson-add.gif) no-repeat 0 3px;
+}
+p.newp_add a{
+	margin-left: 15px;
+	display: inline-block;
+	font-size: 13px;
+	color:#0082CB;
+	text-decoration: none;
+}

@@ -1,0 +1,41 @@
+<include file='Template:head' />
+<include file='lmenu' />
+<div id='content'>
+	<h3>联系人管理</h3>
+	<div class='query'>
+		<form action='' method='get'>
+			<label>关键字：</label>
+			<div class='select'>
+				<input type='text' value='姓名' readonly/>
+				<span>
+					<ul class='option'>
+						<li>姓名</li>
+						<li>手机号</li>
+					</ul>
+				</span>
+			</div>
+			<input type='text' />
+			<input type='submit' value='查询' />
+		</form>
+	</div>
+	<table>
+		<thead>
+			<tr>
+				<td class='name'>姓名</td>
+				<td class='ph'>手机</td>
+				<td class='addr'>地址</td>
+				<td class='opt'>操作</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>张三丰</td>
+				<td>187****1234</td>
+				<td>湖南省湘潭市雨湖区湖南科技大学</td>
+				<td><a href='#'>修改</a><a href='#'>删除</a></td>
+			</tr>
+		</tbody>
+	</table>
+	<p class='newp_add'><a href='#'>新建联系人</a></p>
+</div>
+<include file='Template:foot' />

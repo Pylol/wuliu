@@ -1,0 +1,83 @@
+.sresult {
+	width: 700px;
+	min-height: 180px;
+	margin-top: 10px;
+	float: left;
+}
+.track{
+	width: 400px;
+	float: left;
+	background: #eee;
+    min-height: 180px;
+    padding-bottom: 10px;
+}
+.shis {
+	width: 290px;
+	min-height: 180px;
+	background: #eee;
+	float: right;
+}
+.sresult h5{
+    color: #6D9A9C;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 5px;
+}
+.track p {
+    color: #555;
+    font-size: 13px;
+    padding-left: 15px;
+    line-height: 20px;
+    width: 380px;
+}
+.shis ul li{
+    width: 290px;
+    height: 25px;
+    line-height: 25px;
+}
+.shis ul li span{
+    width: 195px;
+    float: left;
+    font-size: 13px;    
+    color:#555;
+    padding-left: 5px;
+}
+.shis ul li span a {
+    display: inline-block;
+    text-decoration: none;
+    color: #0A9EE1;
+}
+.shis ul li a:hover{
+    text-decoration: underline;
+}
+.shis ul li font {
+    width:65px;
+    float: right;
+    color: #aaa;
+    font-size: 13px;
+    padding-right:10px;
+    text-align: right;
+}
+.map {
+    float: left;
+    width: 700px;
+    height: 520px;
+    margin-top: 10px;
+    overflow: hidden;
+    border-bottom: 2px solid #729DA0;
+}
+.map h4{
+    color:#709C9E;
+    padding-left: 5px;
+    border-left: 5px solid #FAAF19;
+    width: 690px;
+    border-bottom: 2px solid #ddd;
+}
+#iCenter {
+    margin-top: 10px;
+    width:694px;
+    height: 500px;
+    border: 2px solid #729DA0;
+    padding: 1px;
+}

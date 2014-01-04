@@ -1,0 +1,308 @@
+#lmenu {
+	width: 230px;
+	margin: 10px 0;
+	float: left;
+	overflow: hidden;
+}
+#ent_top ,#prompt_top{
+    width: 230px;
+    height: 5px;
+    float: left;
+    background: url(../Images/entrance_bg.png) top left no-repeat;
+}
+#ent_center, #prompt_center{
+    width: 230px;
+    float: left;
+    padding: 0 5px;
+    font-family: "微软雅黑",Tahoma,sans-serif;
+    background: url(../Images/entrance_bg.png) repeat-y -230px 0;
+}
+#ent_bottom ,#prompt_bottom{
+    width: 230px;
+    height: 5px;
+    float: left;
+    background: url(../Images/entrance_bg.png) no-repeat -460px 0;
+}
+
+#ent_center ul li a{
+	display: block;
+	width: 230px;
+	height: 32px;
+	line-height: 32px;
+	text-decoration: none;
+	color: #384D4D;
+	padding-left: 40px;
+	font-size: 14px;
+}
+#ent_center >ul >li >a{
+	font-weight: bold;
+}
+#ent_center ul li a:hover{
+	color: #54abab;
+}
+#ent_center ul li.active{
+	width: 230px;
+	height: 32px;
+    font-size: 14px;
+    line-height: 32px;
+    background: url(../Images/entrance_title_bg.png) top left no-repeat;
+}
+#ent_center ul li.active a {
+	color: #fff !important;
+}
+#ent_center li > ul li {
+	padding-left: 30px;
+}
+#ent_center li > ul li:before{
+	content: '';
+    border: 5px solid transparent;
+    border-left-color: #729DA0;
+    float: left;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+#ent_center li > ul li.active:before{
+	border-left-color: #fff;
+}
+
+.c-service {
+    width: 230px;
+    background: #fff url(../Images/cservice.png) no-repeat 40% 0;
+    float: left;
+    margin-top: 20px;
+}
+.cdis {
+	margin-top: 20px;
+}
+.c-service  a{
+    display: block;
+    text-decoration: none;
+    color: #384D4D;
+    float: left;
+    margin-top: 40px;
+    font-family: "微软雅黑",Tahoma,sans-serif;
+    font-size: 14px;
+}
+.c-service  a:hover{
+    color: #67C7DA;
+    text-decoration: underline;
+}
+.c-service .advice a{
+    margin-left: 20px;
+}
+.c-service .online_service a{
+    margin-left: 50px;
+}
+.sina {
+	width: 230px;
+	height: 30px;
+	float: left;	
+	margin-top: 20px;
+}
+.sina .focus{
+	display: inline-block;
+	width: 64px;
+	height: 22px;
+	text-align: center;
+	font-size: 13px;
+	text-decoration: none;
+	line-height: 22px;
+	color: #1582BD;
+	margin-left: 30px;
+	background: url(../Images/sina.png) top left no-repeat;
+	float: left;
+}
+.sina .focus span {
+	width: 18px;
+	height: 22px;
+	display: inline-block;
+	float: left;
+	background: url(../Images/sina.png) 100% 0 no-repeat;
+}
+.sina .sina_name {
+	width: 75px;
+	height: 22px;
+	line-height: 22px;
+	background: url(../Images/weibo_v.png) right 60% no-repeat;
+	font-size: 14px;
+	font-weight: bold;
+	color: #0082CB;
+	font-family: "微软雅黑",Tahoma,sans-serif;
+	float: left;
+	margin-left: 20px;
+}
+#ent_center .intro, #ent_center .job {
+	background: url(../Images/lmenu.png) 5% -16% no-repeat;
+}
+#ent_center .news {
+	background: url(../Images/lmenu.png) 5% 46% no-repeat;
+}
+#ent_center .contact {
+	background: url(../Images/lmenu.png) 5% 110% no-repeat;
+}
+#ent_center .faq{
+	background: url(../Images/help_bg.png) 5% -5% no-repeat;
+}
+#ent_center .download{
+	background: url(../Images/help_bg.png) 5% 21% no-repeat;
+}
+#ent_center .advice{
+	background: url(../Images/help_bg.png) 5% 29% no-repeat;
+}
+#ent_center .o-service{
+	background: url(../Images/help_bg.png) 5% 45% no-repeat;
+}
+#ent_center .map{
+	background: url(../Images/help_bg.png) 5% 60% no-repeat;
+}
+#ent_center .transport{
+	background: url(../Images/business_bg.png) 5% -26% no-repeat;
+}
+#ent_center .incre-s{
+	background: url(../Images/business_bg.png) 5% 40% no-repeat;
+}
+#ent_center .activities{
+	background: url(../Images/business_bg.png) 5% 115% no-repeat;
+}
+#ent_center .price{
+	background: url(../Images/help_bg.png) 5% 75% no-repeat;
+}
+#ent_center .station{
+	background: url(../Images/help_bg.png) 5% 90% no-repeat;
+}
+#ent_center .contraband{
+	background: url(../Images/help_bg.png) 5% 104% no-repeat;
+}
+#ent_center .order{
+	background: url(../Images/account_ico.png) 5% -4% no-repeat;
+}
+#ent_center .consignee{
+	background: url(../Images/account_ico.png) 5% 13% no-repeat;
+}
+#ent_center .transonline{
+	background: url(../Images/account_ico.png) 5% 95% no-repeat;
+}
+#ent_center .claims{
+	background: url(../Images/account_ico.png) 5% 30% no-repeat;
+}
+#ent_center .message{
+	background: url(../Images/account_ico.png) 5% 47% no-repeat;
+}
+#ent_center .info{
+	background: url(../Images/account_ico.png) 5% 62% no-repeat;
+}
+#ent_center .coupon{
+	background: url(../Images/account_ico.png) 5% 77% no-repeat;
+}
+#content {
+	width: 700px;
+	min-height: 500px;
+	float: right;
+	margin-top: 10px;
+}
+#content h3 {
+	color: #3B4949;
+	border-bottom: 2px solid #3B4949;
+	line-height: 30px;
+}
+#content h3 font{
+	font-size: 13px;
+	line-height: 15px;
+	margin-left: 20px;
+	color: #729DA0;
+}
+.prec{
+	width: 600px;
+	float: left;
+	color: #4C6163;
+	white-space:pre-wrap;
+	font-size: 13px;
+	line-height: 20px;
+	margin-top: 10px;
+}
+
+#ent_center h5{
+	color: #fff;
+	height: 40px;
+	line-height: 30px;
+	padding-left: 10px;
+	width: 230px;
+	background: url(../Images/track_bg.png) top left no-repeat;
+	margin: -5px;
+	float: left;
+}
+#ent_center form textarea{
+	width: 220px;
+	height: 50px;
+	resize: none;
+	font-size: 13px;
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+#ent_center form img {
+	width: 100px;
+	height: 25px;
+	float: left;
+	border: 0;
+	margin-top: 10px;
+}
+#ent_center form input[type='text']{
+	width: 110px;
+	height: 25px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 1px solid #ddd;
+}
+#ent_center form a {
+	float: right;
+	display: block;
+	margin-top: 14px;
+	margin-right: 10px;
+	color: #6D9A9C;
+	font-size: 13px;
+}
+#ent_center form a:hover{
+	color: #FAAF19;
+}
+#ent_center form input[type='submit']{
+	width: 62px;
+    height: 22px;
+    background: url(../Images/bt_submit.png) 0 -22px no-repeat;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    color: #7D6935;
+    border: 0;
+}
+#ent_center form input[type='submit']:hover{
+	 background: url(../Images/bt_submit.png) 0 -44px no-repeat;
+}
+#prompt_top{
+	margin-top: 20px;
+}
+#prompt_center h4{
+	width: 230px;
+	height: 32px;
+	line-height: 32px;
+	color: #fff;
+	padding-left: 10px;
+	background: url(../Images/entrance_title_bg.png) top left no-repeat;
+}
+#prompt_content{
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#prompt_content p{
+	font-size: 13px;
+	color: #719C9E;
+	width: 190px;
+	float: left;
+	padding-left: 10px;
+	line-height: 20px;
+}
+#prompt_content p.b{
+	color: #48585E;
+}
+

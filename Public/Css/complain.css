@@ -1,0 +1,134 @@
+#content ul.fcom {
+	width: 700px;
+	float: left;
+	margin-top: 10px;
+}
+#content ul.fcom > li {
+	float: left;
+	width: 700px;
+	line-height: 35px;
+}
+#content ul.fcom li label{
+	float: left;
+	text-align: right;
+	width: 100px;
+	color: #3B4949;
+	font-size: 14px;
+}
+#content ul.fcom li input[type='text'] {
+	float: left;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	height: 25px;
+	font-size: 13px;
+}
+.select {
+	width: 72px;
+	width: 74px\9;
+	height: 20px;
+	float: left;
+	border: 1px solid #ccc;
+	margin-top: 8px;
+}
+.select input[type='text'] {
+	width: 50px;
+	height: 20px !important;
+	height: 18px\9 !important;
+	border: 0 !important;
+	float: left;
+	display: inline-block;
+	margin: 0 !important;
+	font-size: 13px;
+	line-height: 20px;
+	color: #555;
+	padding-left: 3px;
+}
+.select span {
+	width: 21px;
+	height: 20px;
+	border-left: 1px solid #ccc;
+	float: left;
+	background: #ddd;
+	position: relative;
+}
+.select span:before{
+	content: '';
+	border: 5px solid transparent;
+	border-top: 5px solid #fff;
+	float: left;
+	margin-top: 8px;
+	margin-left: 6px;
+}
+.select span:hover{
+	background: #6D9A9C;
+}
+.select span:hover .option{
+	display: block;
+}
+.option{
+	width: 71px;
+	width: 74px\9;
+	border: 1px solid #ccc;
+	float: left;
+	background: #fff;
+	position: absolute;
+	left: -52px;
+	left: -54px\9;
+	top: 20px;
+	display: none;
+	padding-bottom: 2px;
+}
+.option li {
+	width: 68px;
+	width: 71px\9;
+	height: 22px;
+	line-height: 22px;
+	font-size: 12px;
+	margin: 0;
+	float: left;
+	color: #555;
+	padding-left: 3px;
+}
+.option li:hover {
+	background: #6D9A9C; 
+	color: #fff;
+}
+.code input {
+	width: 60px;
+	float: left;
+	margin-top: 6px;
+}
+.code img{
+	width: 100px;
+	height: 25px;
+	margin-top: 6px;
+	float: left;
+	margin-left: 10px;
+}
+.title input{
+	width: 200px;
+}
+.content textarea{
+	width: 400px;
+	height: 100px;
+	resize: none;
+	font-size: 13px;
+}
+.fcom input[type='submit'],.fcom input[type='reset']{
+	background: #6F9B9D;
+	border: 0;
+	color: #fff;
+	width: 50px;
+	height: 25px;
+	font-size: 14px;
+	font-family: "微软雅黑",Tahoma,sans-serif;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.fcom input[type='submit']:hover,.fcom input[type='reset']:hover{
+	color: #FAAF19;
+}
+.fcom font{
+	color: red;
+	margin-left: 5px;
+}

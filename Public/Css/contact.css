@@ -1,0 +1,75 @@
+.headoffice pre {
+	font-size: 14px;
+	line-height: 28px;
+	font-family: "微软雅黑",Tahoma,sans-serif;
+	width: 700px;
+	white-space:pre-wrap;
+	text-indent: 20px;
+}
+.headoffice ul li{
+	width: 350px;
+	margin-top: 10px;
+	float: left;
+}
+.headoffice ul li p{
+	color: #555;
+	font-size: 14px;
+	line-height: 30px;
+	padding-left: 20px;
+}
+.filiale {
+	margin-top: 20px;
+	float: left;
+}
+.filiale h5{
+	width: 700px;
+	height: 20px;
+	line-height: 20px;
+	border-left: 5px solid #1582BD;
+	float: left;
+	padding-left: 5px;
+	font-size: 15px;
+	color: #3B4949;
+}
+.filsearch {
+	width: 700px;
+	min-height: 400px;
+	margin-top: 10px;
+	float: left;
+}
+.filsearch label{
+	font-size: 15px;
+	padding-left: 20px;
+}
+.filsearch input {
+	width: 70px;
+	height: 20px;
+}
+.filsearch select{
+	height: 20px;
+}
+.filsearch input[type='submit'] {
+    width: 62px;
+    height: 22px;
+    background: url(../Images/bt_submit.png) 0 -22px no-repeat;
+    margin-left: 20px;
+    color: #7D6935;
+    border: 0;
+}
+.filsearch input[type='submit']:hover{
+    background: url(../Images/bt_submit.png) 0 -44px no-repeat;
+}
+.cinfo ul li{
+	color: #555;
+	width: 330px;
+	line-height: 30px;
+	float: left;
+	font-size: 15px;
+	padding-left: 20px;
+}	
+.cinfo img {
+	width: 690px;
+	height: 300px;
+	padding: 2px;
+	border: 2px solid #ddd;
+}

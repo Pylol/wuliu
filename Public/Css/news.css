@@ -1,0 +1,95 @@
+
+#content img.top_img{
+	width: 698px;
+	height: 225px;
+	border: 1px solid #ddd;
+	padding: 1px;
+	margin-top: 5px;
+}
+.bnews{
+	width: 340px;
+	height: 220px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.lpos{
+	float: left;
+}
+.rpos{
+	float: right;
+}
+.bnews h4{
+	float: left;
+	width: 330px;
+	line-height: 30px;
+	border-bottom: 2px solid #bbb;
+	color: #3B4949;
+	font-family: "微软雅黑",Tahoma,sans-serif;
+}
+.bnews .more{
+	display: block;
+	text-decoration: none;
+	color:#54ABAB;
+	font-size: 13px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-family: "微软雅黑",Tahoma,sans-serif;
+}
+.bnews .more:hover{
+	text-decoration: underline;
+}
+.top_news{
+	margin: 5px 0;
+	width: 330px;
+	height: 80px;
+	overflow: hidden;
+	float: left;
+	border-bottom: 2px dashed #ddd;
+}
+.top_news a{
+	width: 200px;
+	height: 20px;
+	display: inline-block;	
+	overflow: hidden;
+	font-size: 16px;
+	color: #F9AE18;
+	float: left;
+	text-decoration: none;
+}
+.top_news a:hover{
+	text-decoration: underline;
+}
+.top_news pre {
+	font-size: 12px;
+	font-family: "微软雅黑",Tahoma,sans-serif;
+	white-space:pre-wrap;
+	width: 200px;
+	float: left;
+	text-indent: 20px;
+	margin-top: 5px;
+}
+.top_news img{
+	width: 120px;
+	height: 70px;
+	float: right;
+}
+.bnews ul{
+	width: 330px;
+	float: left;
+}
+.bnews ul li a{
+	text-decoration: none;
+	font-size: 13px;
+	display: block;
+	width: 330px;
+	height: 25px;
+	line-height: 30px;
+	color: #384f50;
+	float: left;
+}
+.bnews ul li a:hover{
+	color: #54ABAB;
+	text-decoration: underline;
+}

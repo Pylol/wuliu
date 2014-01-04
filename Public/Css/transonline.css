@@ -1,0 +1,265 @@
+.ad{
+	width: 700px;
+	height: 40px;
+	background: #2D2D2D;
+	color: white;
+	margin-top: 2px;
+	float: left;
+}
+.ad font{
+	font-size: 14px;
+	line-height: 40px;
+	margin: 0 35px;
+}
+.guide{
+	width: 700px;
+	height: 40px;
+	margin-top: 5px;
+	float: left;
+	background: url(../Images/guide.png) 0 0 no-repeat;
+}
+.guide font{
+	display: inline-block;
+	width:90px;
+	height: 40px;
+	line-height: 40px;
+	text-decoration: none;
+	color: #777777;
+	font-size: 14px;
+	text-align: center;
+	margin-left: 20px;
+}
+.guide .active {
+	color: #2D2D2D;
+	font-weight: bold;
+}
+.order_tips{
+	width: 680px;
+	height: 30px;
+	border: 1px solid #FBB100;
+	background: #FCF7C2;
+	font-size: 13px;
+	color: #2D2D2D;
+	line-height: 30px;
+	padding-left: 20px;
+	margin-top: 5px;
+	float: left;
+}
+
+.userinfo{	
+	margin-top: 30px;
+	width: 700px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+	float: left;
+}
+.orderform h5{
+	width: 700px;
+	color:#709C9E;
+	border-left: 5px solid #FAAF19;
+	padding-left: 10px;
+	display: inline-block;
+}
+.userinfo .bt_select{
+	width: 102px;
+	height: 22px;
+	background: url(../Images/bt_submit2.png) 0 0 no-repeat;
+	border: 0;
+	background-size: 100% 200%;
+	margin-left: 20px;
+	color:#2D2D2D;
+	font-size: 12px;
+}
+.userinfo .bt_select:hover{
+	background: url(../Images/bt_submit2.png) 0 100% no-repeat;
+	background-size: 100% 200%;
+}
+
+.fpart >li{
+	width: 700px;
+	margin-top: 10px;
+	float: left;
+}
+.fpart .lcols {
+	width: 250px;
+	float: left;
+}
+.fpart li label > span{
+	width: 110px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 13px;
+	display: inline-block;
+	text-align: right;
+	float: left;
+}
+.fpart li label b{
+	color: red;
+	vertical-align: middle;
+	margin-right: 2px;
+}
+
+.fpart li label em {
+	font-size: 12px;
+	display: inline-block;
+	width: 80px;
+	float: left;
+	line-height: 30px;
+}
+.fpart li input.text{
+	width: 120px;
+	height: 30px;
+	border: 1px solid #D0D0D0;
+	padding: 3px;
+	float: left;
+}
+.fpart li input.ct{
+	width: 200px;
+	padding: 3px;
+	padding: 1px 20px\9;
+	font-size: 15px;
+	color: #666;
+	outline: 0px none;
+	background: url('../Images/index_city.png') no-repeat scroll right top transparent;
+}
+.fpart li input.addr{
+	width: 200px;
+	margin-left: 20px;
+	padding: 3px;
+}
+.fpart li p{
+	font-size: 13px;
+	margin-left: 35px;
+	margin-top: 10px;
+	float: left;
+}
+
+.select {
+	width: 200px;
+	height: 30px;
+	margin-left: 25px;
+	border: 1px solid #ccc;
+	display: inline-block;
+	position: absolute;
+}
+.select input[type='text'] {
+	width: 168px;
+	width: 164px\9;
+	height: 30px;
+	height: 28px\9;
+	border: 0 ;
+	float: left;
+	display: inline-block;
+	font-size: 13px;
+	line-height: 20px;
+	color: #555;
+	padding-left: 3px;
+}
+.select span {
+	width: 31px;
+	height:30px;
+	border-left: 1px solid #ccc;
+	float: left;
+	background: #ddd;
+	position: relative;
+}
+.select span:before{
+	content: '';
+	border: 7px solid transparent;
+	border-top: 7px solid #fff;
+	float: left;
+	margin-top: 12px;
+	margin-left: 8px;
+}
+.select span:hover{
+	background: #6D9A9C;
+}
+.select span:hover .option{
+	display: block;
+}
+.option{
+	width: 200px;
+	border: 1px solid #ccc;
+	float: left;
+	background: #fff;
+	position: absolute;
+	left: -170px;
+	top: 30px;
+	display: none;
+	padding-bottom: 2px;
+}
+.option li {
+	width: 198px;
+	height: 22px;
+	line-height: 22px;
+	font-size: 12px;
+	margin: 0;
+	float: left;
+	color: #555;
+	padding-left: 3px;
+}
+.option li:hover {
+	background: #6D9A9C; 
+	color: #fff;
+}
+
+.sinfo {
+	float: left;
+	width: 100px;
+	z-index: 1;
+	margin-left: 0;
+	position: static;
+}
+.sinfo input[type='text']{
+	width: 68px;
+}
+.sinfo .option {
+	width: 100px;
+	left: -70px;
+	z-index: 999;
+}
+.sinfo .option li{
+	width: 100px;
+}
+.sf li label{
+	float: left;
+}
+
+textarea {
+	float: left;
+	width: 500px;
+	height: 100px;
+	resize: none;
+	font-size: 13px;
+	outline: 0 none;
+	border: 1px solid #ccc;
+	padding: 0 5px;
+	color: #555;
+	line-height: 24px;
+}
+.fpart li label.clause span{
+	color: blue;
+	width: 150px;
+	display: block;
+}
+textarea.clause{
+	margin-left: 110px;
+	font-size: 12px;
+}
+input.bt{
+	width: 102px;
+	height: 32px;
+	border: 0;
+	background: url(../Images/bt_submit.png) no-repeat 0 0;
+	background-size: 100% 400%; 
+	margin-top: 30px;
+	margin-left: 30px;
+}
+input.bt:hover {
+	background: url(../Images/bt_submit2.png) no-repeat 0 100%;
+	background-size: 100% 200%;
+}
+input.neworder{
+	background: url(../Images/bt_submit2.png) no-repeat 0 0;
+	background-size: 100% 200%; 
+}

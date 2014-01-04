@@ -1,0 +1,245 @@
+html, body, ul, li, h2, h3, h4, h5, p, pre {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    cursor: default;
+    font-family: "微软雅黑",Tahoma,sans-serif;
+}
+html,body{
+    background: #eee;
+}
+body{
+    width: 990px;
+    margin: 0 auto;
+}
+#box {
+    width: 950px;
+    background: #fff;
+    padding: 0 20px;
+    float: left;
+}
+#header{
+    width: 950px;
+    height: 120px;
+    background: #2D2D2D;
+    float: left;
+}
+#header .top_nav {
+    width: 910px;
+    font-size: 13px;
+    color: #CACACF;
+    float: left;
+    padding: 8px 20px;
+}
+#header .language {
+    color: #9DBBBD !important;
+    font-weight: bold;
+}
+#header .top_nav a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #CACACF;
+    font-family: "微软雅黑",Tahoma,sans-serif;
+    padding: 0 5px;
+}
+#header .top_nav a:hover {
+    color: #fff;
+}
+#header .top_nav_left {
+    float: left;
+}
+#header .top_nav_right {
+    float: right;
+}
+
+.log {
+    width: 200px; 
+    height: 72px;
+    border: 1px solid red;
+    float: left;
+}
+.log_top {
+   margin: 0 0 20px 20px; 
+}
+#header .search {
+    width: 450px; 
+    height: 20px;
+    background: #2D2D2D url(../Images/ph.png) top left no-repeat;
+    margin-right: 20px;
+    float: right;
+}
+
+.itext{
+    width: 250px;
+    height: 20px;
+    height: 16px\9;
+    margin-left: 180px;
+    margin-left: 175px\9;
+    float: left;
+    background: #595959;
+    border: 1px solid gray;
+    border-right: 0;
+    padding-left: 3px;
+    line-height: 17px;
+    color: #CACACF;
+    outline: 0;
+}
+
+.submit {
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    border-left: 0;
+    float: right;
+    outline: 0;
+    background: #e67e22 url(../Images/header-bt.png) top left no-repeat;
+}
+
+.menu {
+    width: 620px;
+    height: 40px;
+    float: right;
+    position: relative;
+    top: 21px;
+}
+.menu > ul {
+    width: 720px;
+    float: left;
+}
+.menu ul li.item {
+    width: 100px;
+    height: 40px;
+    float: left;
+}
+.menu ul li.item:before {
+    content: '';
+    border: 5px solid transparent;
+    border-bottom-color: #729DA0;
+    float: left;
+    position: relative;
+    top: 30px;
+    top: 31px\9;
+    left: 45px;
+    visibility: hidden;
+}
+.menu ul li.item:hover{
+    color: #fff;
+    border-bottom: 5px solid #73A2A4;
+}
+.menu ul li.item:hover:before {
+    visibility: visible;
+}
+.menu ul li.item > a{
+    width: 95px;
+    display: block;
+    font-size: 15px;
+    height: 38px;
+    line-height: 38px; 
+    text-align: center;
+    color: #D4D6D7;
+    outline: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "微软雅黑",Tahoma,sans-serif;
+}
+
+.c_menu {
+    width: 100px;
+    background: #fff;
+    float: left;
+    position: absolute;
+    z-index: 2;
+    position: relative;
+    top: 7px;
+    padding-bottom: 5px;
+    display: none;
+}
+.c_menu li {
+    width: 100px;
+    height: 30px;
+}
+.c_menu a {
+    display: block;
+    text-decoration: none;
+    color: #4D4D4D;
+    width: 100px;
+    font-size: 12px;
+    line-height: 30px;
+    width: 95px;
+    border-bottom: 1px solid #ccc;
+    padding-left: 5px;
+}
+.c_menu a:hover{
+    background: #C8E3E4;
+    text-decoration: underline;
+}
+#footer{
+    width: 950px;
+    height: 180px;
+    margin-top: 30px;
+    background: #2D2D2D;
+    float: left;
+}
+.f_log{
+    width: 230px;
+    height: 150px;
+    float: left;
+    border: 0px solid blue;
+}
+.log_bottom {
+    margin: 10px 20px;
+}
+.f_ph {
+    width: 230px;
+    height: 50px;
+    color: #F9AE18;
+    text-align: center;
+    font-family: "微软雅黑",Tahoma,sans-serif;
+    font-weight: bold;
+    float: left;
+    background: #2D2D2D url(../Images/ph.png) bottom center no-repeat;
+}
+.f_block{
+    width: 180px;
+    height: 150px;
+    float: left;
+    border: 0px solid blue;
+    margin-left: 10px;
+}
+.f_customer {
+    margin-left: 70px;
+}
+.f_link {
+    width: 255px;
+}
+.f_block h5 {
+    color: #9DBBBD;
+    line-height: 30px;
+    font-size: 15px;
+}
+.f_block ul li a{
+    display: block;
+    text-decoration: none;
+    color: #D4D6D7;
+    font-family: "宋体",Tahoma,sans-serif;
+    font-size: 13px;
+    float: left;
+    width: 80px;
+    line-height: 30px;
+    margin-right: 5px;
+}
+.f_block ul li a:hover {
+    text-decoration: underline;
+}
+.copyright {
+    width: 950px;
+    height: 20px;
+    color: #fff;
+    float: left;
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: right;
+    font-family: "微软雅黑",Tahoma,sans-serif;
+}

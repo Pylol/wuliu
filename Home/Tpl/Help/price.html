@@ -1,0 +1,66 @@
+<include file='Template:head' />
+<include file='lmenu' />
+<div id='content'>
+	<h3>价格/时效查询</h3>
+	<div class='query-form'>
+		<form>
+			<input type='text' value='发货城市'/>
+			<span class='arrow'></span>
+			<input type='text' value='收货城市'/>
+			<input type='submit' value='查询' />
+		</form>
+	</div>
+	<div class='query-results'>
+		<h4>查询结果：</h4>
+		<table>
+			<thead>
+				<tr>
+					<td class='td_one'>运输方式</td>
+					<td class='td_two'>单价</td>
+					<td class='td_three'>可提货时效（从发货次日算起）</td>
+					<td class='td_four'>运输起价（元）</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>精准卡航</td>
+					<td>重货 2.05 元/公斤，轻货 431 元/立方米</td>
+					<td>
+						预计总部可提货时间：<br>
+						第二天10:00<br>
+						预计总部可派送时间：<br>
+						第二天18:00前 <br>
+					</td>
+					<td>40 </td>
+				</tr>
+				<tr>
+					<td>精准汽运</td>
+					<td>重货 1.7 元/公斤，轻货 357 元/立方米 </td>
+					<td>
+						第三天到第四天
+					</td>
+					<td>30</td>
+				</tr>
+				<tr>
+					<td>经济快递</td>
+					<td>
+						首重(1公斤以下 )：12元<br>
+						续重1(1-5公斤)：5元/公斤<br>
+						续重2(5公斤以上 )：4元/公斤 <br>
+					</td>
+					<td>
+						预计可提货时间：<br>
+						第二天14:00<br>
+						预计可派送时间：<br>
+						第二天18:00前 <br>
+					</td>
+					<td>12</td>
+				</tr>
+			</tbody>
+		</table>
+		<p class='notice'>注：货物的总重量（KG）和总体积（m³）的比值大于或等于210为重货，按重量计费；若比值低于210为轻货，按体积计费。如有疑问请联系当地营业部咨询。</p>
+
+		<p class='tips'>说明： <span>此价格与时效仅供参考</span>，普通客户准确报价以营业部电话咨询为准，月结客户以签订协议中的报价为准。</p>
+	</div>
+</div>
+<include file='Template:foot' />

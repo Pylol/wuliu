@@ -1,0 +1,43 @@
+.toppic{
+	padding: 1px;
+	border: 1px solid #ddd;
+	margin-top: 10px;
+	float: left;
+}
+#content table{
+	width: 700px;
+	float: left;
+	border-spacing: 0;
+	margin-top: 15px;
+}
+#content thead{
+	background: #6D9A9C;
+	color: #fff;
+}
+#content thead td{
+	padding-left: 10px;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: bold;
+	width: 350px;
+}
+.ati td{
+	padding-left: 10px;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: bold;
+	width: 350px;
+	color: #3B4949;
+}
+
+.feature h4{
+	color: #033B70;
+	line-height: 25px;
+	padding-left: 10px;
+	margin-top: 20px;
+}
+.feature p{
+	line-height: 25px;
+	font-size: 14px;
+	color: #4C6163;
+}
