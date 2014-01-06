@@ -1,4 +1,16 @@
-
+p.tips{
+	width: 680px;
+	height: 30px;
+	border: 1px solid #FBB100;
+	background: #FCF7C2;
+	font-size: 13px;
+	color: #2D2D2D;
+	line-height: 30px;
+	padding-left: 20px;
+	margin-top: 5px;
+	float: left;
+	border-radius: 5px;
+}
 #content table{
 	width: 700px;
 	float: left;
@@ -21,29 +33,7 @@
 #content td a{
 	color: #0082CB;
 	text-decoration: none;
-	padding: 0 5px;
 }
-#content  a:hover{
+#content td a:hover{
 	text-decoration: underline;
-}
-p.b {
-	font-size: 13px;
-	margin-top: 10px;
-}
-p.page{
-	float: right;
-	width: 200px;
-	text-align: right;
-	padding-right: 10px;
-}
-p.aopt{
-	width: 200px;	 
-	float: left;
-	padding-left: 10px;
-}
-p.aopt a{
-	text-decoration: none;
-	display: inline-block;
-	color: #0082CB;
-	margin-left: 10px;
 }

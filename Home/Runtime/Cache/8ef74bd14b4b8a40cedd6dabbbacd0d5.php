@@ -94,31 +94,30 @@
 <div id='lmenu'>
 	<span id='ent_top'></span>
 	<span id='ent_center'>
-		<ul>
-			<li class='active'><a href='__URL__/order' class='order'>我的订单</a>
-				<!-- <ul>
-					<li class='active'><a href='__URL__/order'>全部</a></li>
-					<li><a href='#'>未付款订单(0)</a></li>
-					<li><a href='#'>运输中订单(0)</a></li>
-				</ul> -->
-			</li>
-			<li><a href='__URL__/transonline' class='transonline'>网上下单</a></li>
-			<li><a href='__URL__/consignee' class='consignee'>联系人管理</a></li>
-			<!-- <li><a href='__URL__/claims' class='claims'>在线理赔</a> -->
-				
-			</li>
-			<li><a href='__URL__/message' class='message'>站内信息</a>
-				<!-- <ul>
-					<li><a href='__URL__/message'>全部</a></li>
-					<li><a href='#'>未读信息(0)</a></li>
-					<li><a href='#'>已读信息</a></li>
-				</ul> -->
-			</li>
-			<li><a href='__URL__/info' class='info'>个人资料的设置</a></li>
-			<li><a href='__URL__/coupon' class='coupon'>我的优惠券</a></li>
-		</ul>
+		<h5>订单查询</h5>
+		<form action='' method='post'>
+			<textarea>请输入订单号</textarea>
+			<img src='' />
+			<input type='text' />
+			<input type='submit' value='查询' />
+			<a href=''>重置</a>
+		</form>
 	</span>
 	<span id='ent_bottom'></span>
+	<span id='prompt_top'></span>
+	<span id='prompt_center'>
+		<h4>温馨提示</h4>
+		<div id='prompt_content'>
+			<p>您需要凭以下证件提取您的货物</p>
+			<p>本人提货：</p>
+			<p class='b'>收货人本人身份证原件</p>
+			<p>委托提货：</p>
+			<p class='b'>收货人及代理人的身份证原件</p>
+			<p>公司提货：</p>
+			<p class='b'>提货人身份证原件与提货委托书(加盖公章)</p>
+		</div>
+	</span>
+	<span id='prompt_bottom'></span>
 	<div class='sina' >
 		<a href='#' class='focus' onclick='javascript:alert("成功关注！")'><span></span>加关注</a>
 		<span class='sina_name'>蜂鸟物流</span>
@@ -128,40 +127,45 @@
 			<a href='#'>建议 | 投诉</a>
 		</div>
 		<div class='online_service'>
-			<a href='#'>在线客服</a>
+			<a href='tencent://Message/?Uin=505600376&Site=有事就请联系我&Menu=yes'>在线客服</a>
 		</div>
 	</div>
 </div>
 <div id='content'>
-	<h3>我的消息</h3>
-	<table>
-		<thead>
-			<tr>
-				<td></td>
-				<td>发件人</td>
-				<td>主题</td>
-				<td>时间</td>
-				<td>操作</td>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td><input type='checkbox' /></td>
-				<td>蜂鸟物流</td>
-				<td>测试邮件</td>
-				<td>2013-1-4</td>
-				<td><a href='#'>查看</a><a href='#'>删除</a></td>
-			</tr>
-		</tbody>
-	</table>
-	<p class='b aopt'>
-		<a href='#'>全选</a>
-		<a href='#'>标记为已读</a>
-		<a href='#'>删除</a>
-	</p>
-	<p class='b page'>
-		共 1 条消息
-	</p>
+	<h3>货物追踪</h3>
+	<div class='sresult'>
+		<div class='track'>
+			<h5>订单详情：</h5>
+			<p>2013-12-12 17:10:47 卖家已发货</p>
+			<p>2013-12-12 23:46:04 快件在莆田,准备送往下一站</p>
+			<p>2013-12-13 01:21:53 快件在莆田集散中心,准备送往下一站</p>
+			<p>2013-12-13 01:33:24 快件在莆田集散中心,准备送往下一站</p>
+			<p>2013-12-13 20:51:03 快件在武汉陆运中转场,准备送往下一站</p>
+			<p>2013-12-13 22:00:41 快件在武汉陆运中转场,准备送往下一站</p>
+			<p>2013-12-13 22:01:37 快件在武汉陆运中转场,准备送往下一站长沙集散中心</p>
+			<p>2013-12-14 09:58:46 快件在长沙集散中心,准备送往下一站</p>
+			<p>2013-12-14 10:31:06 快件在长沙集散中心,准备送往下一站</p>
+			<p>2013-12-14 12:40:06 快件在株洲,准备送往下一站</p>
+			<p>2013-12-14 12:41:28 快件在株洲,准备送往下一站</p>
+			<p>2013-12-14 13:29:27 快件在湘潭,准备送往下一站湘潭</p>
+			<p>2013-12-14 14:21:39 快件准备送往便利店</p>
+			<p>2013-12-14 14:50:20 快件到达便利店</p>
+			<p>2013-12-14 17:49:48 签收人是：张委</p>
+		</div>
+		<div class='shis'>
+			<h5>最近查询记录：</h5>
+			<ul>
+				<li><span>运单号：<a href='#'>688551366662</a></span><font>3分钟前</font></li>
+				<li><span>运单号：<a href='#'>688551366662</a></span><font>5分钟前</font></li>
+				<li><span>运单号：<a href='#'>688551366662</a></span><font>13分钟前</font></li>
+				<li><span>运单号：<a href='#'>688551366662</a></span><font>23分钟前</font></li>
+			</ul>
+		</div>
+	</div>
+	<div class='map'>
+		<h4>地图追踪</h4>
+		<div id='iCenter'></div>
+	</div>
 </div>
 		<div id='footer'>
 			<div class='f_log'>

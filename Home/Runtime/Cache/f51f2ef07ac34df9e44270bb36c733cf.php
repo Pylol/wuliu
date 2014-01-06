@@ -133,35 +133,43 @@
 	</div>
 </div>
 <div id='content'>
-	<h3>我的消息</h3>
+	<h3>我的优惠券</h3>
+	<p class='tips'>
+		>>优惠券需在规定的时间到指定网点使用。过期或者非指定网点使用则视为无效优惠券，将不能享受优惠。
+	</p>
 	<table>
 		<thead>
 			<tr>
-				<td></td>
-				<td>发件人</td>
-				<td>主题</td>
-				<td>时间</td>
-				<td>操作</td>
+				<td class='td_one'>序号</td>
+				<td class='td_two'>优惠券编码</td>
+				<td class='td_three'>优惠券金额</td>
+				<td class='td_four'>生效时间</td>
+				<td class='td_five'>失效范围</td>
+				<td class='td_six'>网点</td>
+				<td class='td_seven'>操作</td>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td><input type='checkbox' /></td>
-				<td>蜂鸟物流</td>
-				<td>测试邮件</td>
-				<td>2013-1-4</td>
-				<td><a href='#'>查看</a><a href='#'>删除</a></td>
+				<td>1</td>
+				<td>1005030213</td>
+				<td>￥20</td>
+				<td>2014-1-6 00：00</td>
+				<td>2014-2-6 24：00</td>
+				<td>北京昌平区百善营业部</td>
+				<td><a href='#'>删除</a></td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>1005030213</td>
+				<td>￥20</td>
+				<td>2014-1-6 00：00</td>
+				<td>2014-2-6 24：00</td>
+				<td>北京昌平区百善营业部</td>
+				<td><a href='#'>删除</a></td>
 			</tr>
 		</tbody>
 	</table>
-	<p class='b aopt'>
-		<a href='#'>全选</a>
-		<a href='#'>标记为已读</a>
-		<a href='#'>删除</a>
-	</p>
-	<p class='b page'>
-		共 1 条消息
-	</p>
 </div>
 		<div id='footer'>
 			<div class='f_log'>

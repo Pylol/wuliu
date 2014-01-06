@@ -2,5 +2,79 @@
 <include file='lmenu' />
 <div id='content'>
 	<h3>个人资料设置</h3>
+	<div class='b acinfo'>
+		<h5>帐户信息</h5>
+		<ul>
+			<li>
+				<label>
+					<span>登陆用户：boyz</span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<span>注册邮箱：</span>
+					<span class='emailEdit'>505600376@qq.com</span>
+				</label>
+				<input type='button' value='修改' class='bt' id='cgemail'/>
+			</li>
+			<li>
+				<label>	
+					<span>上次登录时间：2014年01月05日 16:33:05</span>
+				</label>
+				<input type='button' value='修改密码' class='bt' id='cgpd'/>
+			</li>
+		</ul>
+	</div>
+	<div class='b changepass sb'>
+		<form action='' method='post'>
+			<h5>修改密码</h5>
+			<ul>
+				<li>
+					<label>
+						<span><b>*</b>旧密码：</span>
+						<input type='text' />
+					</label>
+				</li>
+				<li>
+					<label>
+						<span><b>*</b>新密码：</span>
+						<input type='text' />
+					</label>
+				</li>
+				<li>
+					<label>
+						<span><b>*</b>重复新密码：</span>
+						<input type='text' />
+					</label>
+				</li>
+					<input type='submit' value='完成' class='bt'/>
+					<input type='button' value='取消' class='bt' id='passcancle'/>
+			</ul>
+		</form>
+	</div>
+	<div class='b binfo sb'>
+		<h5>收货人信息</h5>
+		<ul>
+			<li>
+				<label>
+					<span><b>*</b>姓名：</span>
+					<input type='text' class='text'/>
+				</label>
+			</li>
+			<li>
+				<label>
+					<span><b>*</b>手机：</span>
+					<input type='text' class='text'/>
+				</label>
+			</li>
+			<li>
+				<label>
+					<span><b>*</b>收货地址：</span>
+				</label>
+					<input type='text' class='ct' value='请选择/输入城市名称'/>
+					<input type='text' class='addr'/>
+			</li>
+		</ul>
+	</div>
 </div>
 <include file='Template:foot' />

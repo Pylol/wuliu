@@ -95,27 +95,15 @@
 	<span id='ent_top'></span>
 	<span id='ent_center'>
 		<ul>
-			<li class='active'><a href='__URL__/order' class='order'>我的订单</a>
-				<!-- <ul>
-					<li class='active'><a href='__URL__/order'>全部</a></li>
-					<li><a href='#'>未付款订单(0)</a></li>
-					<li><a href='#'>运输中订单(0)</a></li>
-				</ul> -->
+			<li class='active'><a href='__URL__/transport' class='transport bold'>运输方式</a></li>
+			<li><a  class='incre-s bold'>增值服务</a>
+				<ul>
+					<li><a href='__URL__/collect'>代收货款</a></li>
+					<li><a href='__URL__/package'>安全包装</a></li>
+					<li><a href='__URL__/other'>其他增值服务</a></li>
+				</ul>
 			</li>
-			<li><a href='__URL__/transonline' class='transonline'>网上下单</a></li>
-			<li><a href='__URL__/consignee' class='consignee'>联系人管理</a></li>
-			<!-- <li><a href='__URL__/claims' class='claims'>在线理赔</a> -->
-				
-			</li>
-			<li><a href='__URL__/message' class='message'>站内信息</a>
-				<!-- <ul>
-					<li><a href='__URL__/message'>全部</a></li>
-					<li><a href='#'>未读信息(0)</a></li>
-					<li><a href='#'>已读信息</a></li>
-				</ul> -->
-			</li>
-			<li><a href='__URL__/info' class='info'>个人资料的设置</a></li>
-			<li><a href='__URL__/coupon' class='coupon'>我的优惠券</a></li>
+			<li><a href='__URL__/activities' class='activities bold'>市场活动</a></li>
 		</ul>
 	</span>
 	<span id='ent_bottom'></span>
@@ -128,40 +116,49 @@
 			<a href='#'>建议 | 投诉</a>
 		</div>
 		<div class='online_service'>
-			<a href='#'>在线客服</a>
+			<a href='tencent://Message/?Uin=505600376&Site=有事就请联系我&Menu=yes'>在线客服</a>
 		</div>
 	</div>
 </div>
 <div id='content'>
-	<h3>我的消息</h3>
+	<h3>运输方式</h3>
+	<img src='__PUBLIC__/Images/car.jpg' class='toppic'/>
 	<table>
 		<thead>
 			<tr>
-				<td></td>
-				<td>发件人</td>
-				<td>主题</td>
-				<td>时间</td>
-				<td>操作</td>
+				<td>经济快递</td>
+				<td>精准卡运</td>
+				<td>精准汽运</td>
 			</tr>
 		</thead>
 		<tbody>
-			<tr>
-				<td><input type='checkbox' /></td>
-				<td>蜂鸟物流</td>
-				<td>测试邮件</td>
-				<td>2013-1-4</td>
-				<td><a href='#'>查看</a><a href='#'>删除</a></td>
+			<tr class='ati'>
+				<td>2~3天到达</td>
+				<td>1~2天到达</td>
+				<td>2~3天到达</td>
+			</tr>
+			<tr class='feature'>
+				<td colspan='3'>
+				<h4>快速</h4>
+				<p>全部采用进口VOLVO/SCANIA等全封闭厢式卡车，良好的刹车性能给驾驶员提供了一个安全的开车环境。以最优的线路为您的货物运输和派送，保证您的货物在第一时间内到达。
+				</p>
+
+				<h4>安全</h4>
+				<p>车辆全部采用进口VOLVO/SCANIA等全封闭厢式卡车（车辆自身严密电子系统控制，给车辆带来全方位的保护），GPS全球定位，短信、电话、网络实现全程货物跟踪，使您随时随地掌握货物在途信息。
+				</p> 
+
+				<h4>实惠</h4>
+				<p>空运速度，汽运价格。安全快速，限时到达。
+				</p>
+
+				<h4>网络</h4>
+				<p>迅速通达全国188个城市，新线路持续增加中。
+				承载您对德邦运输时效的信任,助力您的货物快速送达。
+				</p>
+				<td>
 			</tr>
 		</tbody>
 	</table>
-	<p class='b aopt'>
-		<a href='#'>全选</a>
-		<a href='#'>标记为已读</a>
-		<a href='#'>删除</a>
-	</p>
-	<p class='b page'>
-		共 1 条消息
-	</p>
 </div>
 		<div id='footer'>
 			<div class='f_log'>
