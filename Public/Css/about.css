@@ -1,0 +1,399 @@
+/*intro.css*/
+pre {
+	font-size: 14px;
+	line-height: 28px;
+	font-family: "微软雅黑",Tahoma,sans-serif;
+	white-space:pre-wrap;
+	color: #3B4949;
+}
+.top_img{
+	width: 698px;
+	height: 225px;
+	border: 1px solid #ddd;
+	padding: 1px;
+	margin-top: 5px;
+}
+
+/*news.css*/
+.bnews{
+	width: 340px;
+	height: 220px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.lpos{
+	float: left;
+}
+.rpos{
+	float: right;
+}
+.bnews h4{
+	float: left;
+	width: 330px;
+	line-height: 30px;
+	border-bottom: 2px solid #bbb;
+	color: #729DA0;
+	font-family: "微软雅黑",Tahoma,sans-serif;
+}
+.bnews .more{
+	display: block;
+	text-decoration: none;
+	color:#54ABAB;
+	font-size: 13px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-family: "微软雅黑",Tahoma,sans-serif;
+}
+.bnews .more:hover{
+	text-decoration: underline;
+}
+.top_news{
+	margin: 5px 0;
+	width: 330px;
+	height: 80px;
+	overflow: hidden;
+	float: left;
+	border-bottom: 2px dashed #ddd;
+}
+.top_news a{
+	width: 200px;
+	height: 20px;
+	display: inline-block;	
+	overflow: hidden;
+	font-size: 16px;
+	color: #F9AE18;
+	float: left;
+	text-decoration: none;
+}
+.top_news a:hover{
+	text-decoration: underline;
+}
+.top_news pre {
+	font-size: 12px;
+	font-family: "微软雅黑",Tahoma,sans-serif;
+	white-space:pre-wrap;
+	width: 200px;
+	float: left;
+	text-indent: 20px;
+	margin-top: 5px;
+}
+.top_news img{
+	width: 120px;
+	height: 70px;
+	float: right;
+}
+.bnews ul{
+	width: 330px;
+	float: left;
+}
+.bnews ul li a{
+	text-decoration: none;
+	font-size: 13px;
+	display: block;
+	width: 330px;
+	height: 25px;
+	line-height: 30px;
+	color: #384f50;
+	float: left;
+}
+.bnews ul li a:hover{
+	color: #54ABAB;
+	text-decoration: underline;
+}
+
+/*recruit.css*/
+.jobinfo {
+	width: 700px;
+	float: left;
+	margin-top: 20px;
+}
+.jobinfo table{
+	width: 700px;
+	float: left;
+	border-spacing: 0;
+}
+.jobinfo table thead{
+	background: #6D9A9C;
+	color: #fff;
+}
+.jobinfo table thead td{
+	padding-left: 10px;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.jobinfo table tbody td{
+	padding-left: 10px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #aaa;
+}
+.jobinfo table tbody td a{
+	color: #0082CB;
+	text-decoration: none;
+}
+.jobinfo table tbody td a:hover{
+	text-decoration: underline;
+	color:#F9AE18;
+}
+.odd {
+	background: #eee;
+}
+
+/*detail.css*/
+.headtop{
+	width: 700px;
+	height: 30px;
+	float: left;
+	font-size: 13px;
+	border-bottom: 2px solid #3B4949;
+	line-height: 30px;
+}
+.headtop a{
+	color: #6F9B9D;
+	text-decoration: none;
+	display: inline-block;
+	line-height: 30px;
+}
+.headtop a:hover{
+	text-decoration: underline;
+}
+.headtop span{
+	color: #333;
+	font-weight: bold;
+}
+
+.detail{
+	width: 680px;
+	min-height: 500px;
+	padding: 0 10px;
+	float: left;
+}
+.detail span{
+	font-size: 13px;
+	margin-right: 40px;
+	line-height: 30px;
+	color: #4C6163;
+}
+.desc {
+	width: 700px;
+	float: left;
+	margin-top: 20px;
+}
+.desc h5{
+	color: #0082CB;
+	line-height: 40px;
+	font-family: "微软雅黑",Tahoma,sans-serif;
+}
+.desc pre{
+	width: 600px;
+	float: left;
+	color: #4C6163;
+	white-space:pre-wrap;
+	font-size: 13px;
+	line-height: 20px;
+}
+.addr {
+	width: 700px;
+	float: left;
+	min-height: 50px;
+}
+.addr span{
+	color: #318187;
+	font-size: 15px;
+	width: 600px;
+	float: left;
+}
+.addr .highlight{
+	line-height: 50px;
+	color: #2D2D2D;
+}
+
+/*contact.css*/
+.headoffice pre {
+	font-size: 14px;
+	line-height: 28px;
+	font-family: "微软雅黑",Tahoma,sans-serif;
+	width: 700px;
+	white-space:pre-wrap;
+	text-indent: 20px;
+}
+.headoffice ul li{
+	width: 350px;
+	margin-top: 10px;
+	float: left;
+}
+.headoffice ul li p{
+	color: #555;
+	font-size: 14px;
+	line-height: 30px;
+	padding-left: 20px;
+}
+.filiale {
+	margin-top: 20px;
+
+	float: left;
+}
+.filiale h5{
+	width: 700px;
+	height: 20px;
+	line-height: 20px;
+	border-left: 5px solid #1582BD;
+	float: left;
+	padding-left: 5px;
+	font-size: 15px;
+	color: #3B4949;
+}
+.filsearch {
+	width: 700px;
+	margin-top: 10px;
+	float: left;
+	border-bottom: 1px solid #ccc;
+}
+.filsearch label{
+	font-size: 13px;
+	width: 80px;
+	text-align: right;
+	float: left;
+	color: #3B4949;
+	height: 25px;
+	line-height: 25px;
+}
+.filsearch input.city {
+	width: 170px;
+	height: 25px;
+	float: left;
+	margin-left: 5px;
+	background: url(../Images/index_city.png) no-repeat 0 0;
+	background-size: 100% 100%;
+	border: 1px solid #ccc;
+	color: #3B4949;
+}
+.filsearch input[type='submit'] {
+    width: 62px;
+    height: 22px;
+    background: url(../Images/bt_submit.png) 0 -22px no-repeat;
+    margin-left: 20px;
+    border: 0;
+    color: #3B4949;
+}
+.filsearch input[type='submit']:hover{
+    background: url(../Images/bt_submit.png) 0 -44px no-repeat;
+}
+.cinfo ul li{
+	color: #555;
+	width: 330px;
+	line-height: 30px;
+	float: left;
+	font-size: 15px;
+	padding-left: 20px;
+}	
+.cinfo img {
+	width: 690px;
+	height: 300px;
+	padding: 2px;
+	border: 2px solid #ddd;
+}
+
+/**************
+	honour.css
+*************/
+.holi {
+	width: 700px;
+	overflow: hidden;
+	float: left;
+	border-left: 3px solid #ccc;
+	border-right: 3px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin-top: 10px;
+}
+.holi ul{
+	width: 1000px;
+	float: left;
+}
+.holi li{
+	width: 200px;
+	height: 120px;
+	margin: 5px 10px;
+	float: left;
+}
+.holi img{
+	width: 100%;
+	height: 100%;
+}
+
+.select {
+	width: 172px;
+	width: 174px\9;
+	height: 23px;
+	float: left;
+	border: 1px solid #ccc;
+	margin-left: 5px;
+}
+.select input[type='text'] {
+	width: 150px;
+	height: 23px !important;
+	height: 18px\9 !important;
+	border: 0 !important;
+	float: left;
+	display: inline-block;
+	margin: 0 !important;
+	font-size: 13px;
+	line-height: 20px;
+	color: #555;
+	padding-left: 3px;
+}
+.select span {
+	width: 21px;
+	height: 23px;
+	border-left: 1px solid #ccc;
+	float: left;
+	background: #ddd;
+	position: relative;
+}
+.select span:before{
+	content: '';
+	border: 5px solid transparent;
+	border-top: 5px solid #fff;
+	float: left;
+	margin-top: 8px;
+	margin-left: 6px;
+}
+.select span:hover{
+	background: #6D9A9C;
+}
+.select span:hover .option{
+	display: block;	
+}
+.option{
+	width: 171px;
+	width: 174px\9;
+	border: 1px solid #ccc;
+	float: left;
+	background: #fff;
+	position: absolute;
+	left: -152px;
+	left: -154px\9;
+	top: 20px;
+	display: none;
+	padding-bottom: 2px;
+}
+.option li {
+	width: 168px;
+	width: 171px\9;
+	height: 22px;
+	line-height: 22px;
+	font-size: 12px;
+	margin: 0;
+	float: left;
+	color: #555;
+	padding-left: 3px;
+}
+.option li:hover {
+	background: #6D9A9C; 
+	color: #fff;
+}

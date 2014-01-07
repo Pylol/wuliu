@@ -1,0 +1,91 @@
+#content {
+	width: 950px;
+	min-height: 400px;
+	float: left;
+}
+.bl {
+	width: 470px;
+	margin-top: 20px;
+	float: left;
+}
+.bl h5{
+	margin-left: 30px;
+	margin-bottom: 30px;
+	height: 20px;
+	line-height: 20px;
+	color: #729DA0;
+	padding-left: 3px;
+	border-left: 5px solid #F9AE18;
+	float: left;
+	width: 440px;
+}
+.bl label{
+	float: left;
+	width: 470px;
+	height: 35px;
+	font-size: 13px;
+	color: 
+}
+.bl label span{
+	float: left;
+	width: 150px;
+	text-align: right;
+}
+.bl input.text{
+	float: left;
+	width: 180px;
+	height: 25px;
+	background: url(../Images/input_bg.png) repeat-x 0 0;
+	border: 1px solid #ccc;
+	padding-left: 3px;
+	font-size: 12px;
+}
+.bl input.pass {
+	width: 150px;
+}
+.bl input.code{
+	width: 90px;
+}
+.bl img.code{
+	width: 90px;
+	height: 25px;
+	margin-left: 5px;
+}
+.agreement {
+	width: 350px;
+	float: left;
+	margin-left: 120px;
+	margin-top: 20px;
+	font-size: 13px;
+}
+.agreement a{
+	color:#0082CB;
+}
+.regist {
+	border-right: 1px solid #ccc;
+}
+.sub{
+	float: left;
+	width: 102px;
+	height: 32px;
+	border: 0;
+	margin-left: 150px;
+	margin-top: 30px;
+	background: url(../Images/bt_submit2.png) no-repeat 0 0;
+}
+.sub:hover{
+	background: url(../Images/bt_submit2.png) no-repeat 0 100%;
+}
+.login label a{
+	color:#0082CB;
+	display: inline-block;
+	float: left;
+	margin-left: 5px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	text-decoration: none;
+}
+.login label a:hover{
+	text-decoration: underline;
+}

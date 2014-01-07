@@ -8,11 +8,11 @@
 
 	<link rel='stylesheet' href='__PUBLIC__/Css/base.css'>
 	<link rel='stylesheet' type='text/css' href='__PUBLIC__/Css/lmenu.css'>
-	<link rel='stylesheet' href="__PUBLIC__/Css/<?php echo ($script_name); ?>.css" />
+	<link rel='stylesheet' href="__PUBLIC__/Css/<?php echo ($css); ?>.css" />
 
 	<script type='text/javascript' src='__PUBLIC__/Js/jquery.js'></script>
 	<script type='text/javascript' src='__PUBLIC__/Js/base.js'></script>
-	<script type='text/javascript' src="__PUBLIC__/Js/<?php echo ($script_name); ?>.js"></script>
+	<script type='text/javascript' src="__PUBLIC__/Js/<?php echo ($js); ?>.js"></script>
 	<script language="javascript">  
 		var mapObj;  
 		//初始化地图对象，加载地图  
@@ -32,8 +32,8 @@
 					<a href='#'>收藏蜂鸟</a>
 				</span>
 				<span class='top_nav_right'>
-					<a href='#'>登录</a>|
-					<a href='#'>注册</a>
+					<a href='__APP__/User/regist_login'>登录</a>|
+					<a href='__APP__/User/regist_login'>注册</a>
 					<a href='#' class='language'>中文</a>|
 					<a href='#'>English</a>
 				</span>
@@ -134,7 +134,7 @@
 </div>
 <div id='content'>
 	<h3>个人资料设置</h3>
-	<div class='b acinfo'>
+	<div class='blk acinfo'>
 		<h5>帐户信息</h5>
 		<ul>
 			<li>
@@ -157,7 +157,7 @@
 			</li>
 		</ul>
 	</div>
-	<div class='b changepass sb'>
+	<div class='blk changepass sb'>
 		<form action='' method='post'>
 			<h5>修改密码</h5>
 			<ul>
@@ -184,7 +184,7 @@
 			</ul>
 		</form>
 	</div>
-	<div class='b binfo sb'>
+	<div class='blk binfo sb'>
 		<h5>收货人信息</h5>
 		<ul>
 			<li>

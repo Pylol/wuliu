@@ -8,11 +8,11 @@
 
 	<link rel='stylesheet' href='__PUBLIC__/Css/base.css'>
 	<link rel='stylesheet' type='text/css' href='__PUBLIC__/Css/lmenu.css'>
-	<link rel='stylesheet' href="__PUBLIC__/Css/<?php echo ($script_name); ?>.css" />
+	<link rel='stylesheet' href="__PUBLIC__/Css/<?php echo ($css); ?>.css" />
 
 	<script type='text/javascript' src='__PUBLIC__/Js/jquery.js'></script>
 	<script type='text/javascript' src='__PUBLIC__/Js/base.js'></script>
-	<script type='text/javascript' src="__PUBLIC__/Js/<?php echo ($script_name); ?>.js"></script>
+	<script type='text/javascript' src="__PUBLIC__/Js/<?php echo ($js); ?>.js"></script>
 	<script language="javascript">  
 		var mapObj;  
 		//初始化地图对象，加载地图  
@@ -32,8 +32,8 @@
 					<a href='#'>收藏蜂鸟</a>
 				</span>
 				<span class='top_nav_right'>
-					<a href='#'>登录</a>|
-					<a href='#'>注册</a>
+					<a href='__APP__/User/regist_login'>登录</a>|
+					<a href='__APP__/User/regist_login'>注册</a>
 					<a href='#' class='language'>中文</a>|
 					<a href='#'>English</a>
 				</span>
@@ -137,7 +137,7 @@
 	<div class='query'>
 		<form action='' method='get'>
 			<label>关键字：</label>
-			<div class='select'>
+			<div class='select schclass'>
 				<input type='text' value='姓名' readonly/>
 				<span>
 					<ul class='option'>
@@ -150,7 +150,7 @@
 			<input type='submit' value='查询' />
 		</form>
 	</div>
-	<table>
+	<table class='tb'>
 		<thead>
 			<tr>
 				<td class='name'>姓名</td>

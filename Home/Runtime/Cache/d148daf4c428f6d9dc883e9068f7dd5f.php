@@ -8,11 +8,11 @@
 
 	<link rel='stylesheet' href='__PUBLIC__/Css/base.css'>
 	<link rel='stylesheet' type='text/css' href='__PUBLIC__/Css/lmenu.css'>
-	<link rel='stylesheet' href="__PUBLIC__/Css/<?php echo ($script_name); ?>.css" />
+	<link rel='stylesheet' href="__PUBLIC__/Css/<?php echo ($css); ?>.css" />
 
 	<script type='text/javascript' src='__PUBLIC__/Js/jquery.js'></script>
 	<script type='text/javascript' src='__PUBLIC__/Js/base.js'></script>
-	<script type='text/javascript' src="__PUBLIC__/Js/<?php echo ($script_name); ?>.js"></script>
+	<script type='text/javascript' src="__PUBLIC__/Js/<?php echo ($js); ?>.js"></script>
 	<script language="javascript">  
 		var mapObj;  
 		//初始化地图对象，加载地图  
@@ -32,8 +32,8 @@
 					<a href='#'>收藏蜂鸟</a>
 				</span>
 				<span class='top_nav_right'>
-					<a href='#'>登录</a>|
-					<a href='#'>注册</a>
+					<a href='__APP__/User/regist_login'>登录</a>|
+					<a href='__APP__/User/regist_login'>注册</a>
 					<a href='#' class='language'>中文</a>|
 					<a href='#'>English</a>
 				</span>
@@ -129,8 +129,8 @@
 </div>
 <div id='content'>
 	<h3>网站地图</h3>
-	<h4>我的蜂鸟</h4>
-	<ul>
+	<h4 class='t'>我的蜂鸟</h4>
+	<ul class='mlist'>
 		<li><a href='#'>我的订单</a></li>
 		<li><a href='#'>我的账单</a></li>
 		<li><a href='#'>在线理赔</a></li>
@@ -138,33 +138,33 @@
 		<li><a href='#'>个人资料设置</a></li>
 		<li><a href='#'>我的优惠券</a></li>
 	</ul>
-	<h4>网上托运</h4>
-	<ul>
+	<h4 class='t'>网上托运</h4>
+	<ul class='mlist'>
 		<li><a href='#'>网上下单</a></li>
 		<li><a href='#'>价格/时效查询</a></li>
 		<li><a href='#'>网点查询</a></li>
 		<li><a href='#'>禁运品</a></li>
 	</ul>
-	<h4>追踪与收货</h4>
-	<ul>
+	<h4 class='t'>追踪与收货</h4>
+	<ul class='mlist'>
 		<li><a href='#'>货物追踪</a></li>
 		<li><a href='#'>我的收货单</a></li>
 	</ul>
-	<h4>业务介绍</h4>
-	<ul>
+	<h4 class='t'>业务介绍</h4>
+	<ul class='mlist'>
 		<li><a href='#'>运输方式</a></li>
 		<li><a href='#'>增值服务</a></li>
 		<li><a href='#'>市场活动</a></li>
 	</ul>
-	<h4>帮助与支持</h4>
-	<ul>
+	<h4 class='t'>帮助与支持</h4>
+	<ul class='mlist'>
 		<li><a href='#'>常见问题</a></li>
 		<li><a href='#'>咨询|建议|投诉</a></li>
 		<li><a href='#'>在线客服</a></li>
 		<li><a href='#'>网站地图</a></li>
 	</ul>
-	<h4>关于蜂鸟</h4>
-	<ul>
+	<h4 class='t'>关于蜂鸟</h4>
+	<ul class='mlist'>
 		<li><a href='#'>公司概述</a></li>
 		<li><a href='#'>新闻动态</a></li>
 		<li><a href='#'>人才招聘</a></li>
