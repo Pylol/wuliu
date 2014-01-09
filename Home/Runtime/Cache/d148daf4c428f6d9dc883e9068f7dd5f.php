@@ -132,23 +132,15 @@
 	<h4 class='t'>我的蜂鸟</h4>
 	<ul class='mlist'>
 		<li><a href='#'>我的订单</a></li>
-		<li><a href='#'>我的账单</a></li>
-		<li><a href='#'>在线理赔</a></li>
+		<li><a href='#'>网上下单</a></li>
+		<li><a href='#'>联系人管理</a></li>
 		<li><a href='#'>站内信息</a></li>
 		<li><a href='#'>个人资料设置</a></li>
 		<li><a href='#'>我的优惠券</a></li>
 	</ul>
-	<h4 class='t'>网上托运</h4>
-	<ul class='mlist'>
-		<li><a href='#'>网上下单</a></li>
-		<li><a href='#'>价格/时效查询</a></li>
-		<li><a href='#'>网点查询</a></li>
-		<li><a href='#'>禁运品</a></li>
-	</ul>
 	<h4 class='t'>追踪与收货</h4>
 	<ul class='mlist'>
 		<li><a href='#'>货物追踪</a></li>
-		<li><a href='#'>我的收货单</a></li>
 	</ul>
 	<h4 class='t'>业务介绍</h4>
 	<ul class='mlist'>
@@ -160,8 +152,10 @@
 	<ul class='mlist'>
 		<li><a href='#'>常见问题</a></li>
 		<li><a href='#'>咨询|建议|投诉</a></li>
-		<li><a href='#'>在线客服</a></li>
 		<li><a href='#'>网站地图</a></li>
+		<li><a href='#'>价格/时效查询</a></li>
+		<li><a href='#'>在线客服</a></li>
+		<li><a href='#'>网点查询</a></li>
 	</ul>
 	<h4 class='t'>关于蜂鸟</h4>
 	<ul class='mlist'>
@@ -182,8 +176,7 @@
 					<li><a href='#'>网上下单</a></li>
 					<li><a href='#'>订单管理</a></li>
 					<li><a href='#'>已有账单</a></li>
-					<li><a href='#'>在线理赔</a></li>
-					<li><a href='#'>网点分布</a></li>
+					<li><a href='#'>网点查询</a></li>
 					<li><a href='#'>在线客服</a></li>
 					<li><a href='#'>常见问题</a></li>
 					<li><a href='#'>投诉意见</a></li>
