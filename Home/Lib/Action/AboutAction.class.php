@@ -24,7 +24,13 @@ class AboutAction extends Action {
     public function recruit(){
         $this->display();
     }
-    public function detail(){
+    public function recruit_detail(){
+        $this->display();
+    }
+    public function newsinfo(){
+        $this->display();
+    }
+    public function newsmenu(){
         $this->display();
     }
 }

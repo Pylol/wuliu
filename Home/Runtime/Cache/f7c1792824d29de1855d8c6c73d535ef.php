@@ -93,27 +93,17 @@
 	<span id='ent_top'></span>
 	<span id='ent_center'>
 		<ul>
-			<li class='active'><a href='/Account/order' class='order'>我的订单</a>
-				<!-- <ul>
-					<li class='active'><a href='/Account/order'>全部</a></li>
-					<li><a href='#'>未付款订单(0)</a></li>
-					<li><a href='#'>运输中订单(0)</a></li>
-				</ul> -->
+			<li><a  class='intro bold'>公司概述</a>
+				<ul class='childmenu'>
+					<li class='active'><a href='/About/intro'>公司简介</a></li>
+					<li><a href='/About/culture'>文化理念</a></li>
+					<li><a href='/About/history'>发展史</a></li>
+					<li><a href='/About/honour'>所获奖项</a></li>
+				</ul>
 			</li>
-			<li><a href='/Account/transonline' class='transonline'>网上下单</a></li>
-			<li><a href='/Account/consignee' class='consignee'>联系人管理</a></li>
-			<!-- <li><a href='/Account/claims' class='claims'>在线理赔</a> -->
-				
-			</li>
-			<li><a href='/Account/message' class='message'>站内信息</a>
-				<!-- <ul>
-					<li><a href='/Account/message'>全部</a></li>
-					<li><a href='#'>未读信息(0)</a></li>
-					<li><a href='#'>已读信息</a></li>
-				</ul> -->
-			</li>
-			<li><a href='/Account/info' class='info'>个人资料的设置</a></li>
-			<li><a href='/Account/coupon' class='coupon'>我的优惠券</a></li>
+			<li><a href='/About/news' class='news bold'>新闻动态</a></li>
+			<li><a class='job bold' href='/About/recruit'>人才招聘</a></li>
+			<li><a href='/About/contact' class='contact bold'>联系我们</a></li>
 		</ul>
 	</span>
 	<span id='ent_bottom'></span>
@@ -131,42 +121,55 @@
 	</div>
 </div>
 <div id='content'>
-	<h3>联系人管理</h3>
-	<div class='query'>
-		<form action='' method='get'>
-			<label>关键字：</label>
-			<div class='select schclass'>
-				<input type='text' value='姓名' readonly/>
-				<span>
-					<ul class='option'>
-						<li>姓名</li>
-						<li>手机号</li>
-					</ul>
-				</span>
-			</div>
-			<input type='text' />
-			<input type='submit' value='查询' />
-		</form>
+	<div class='headtop'>
+		<a href='__URL__/intro'>关于蜂鸟</a> > <a href='__URL__/recruit'>人才招聘</a> > <span>PHP工程师</span>
 	</div>
-	<table class='tb'>
-		<thead>
-			<tr>
-				<td class='name'>姓名</td>
-				<td class='ph'>手机</td>
-				<td class='addr'>地址</td>
-				<td class='opt'>操作</td>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>张三丰</td>
-				<td>187****1234</td>
-				<td>湖南省湘潭市雨湖区湖南科技大学</td>
-				<td><a href='#'>修改</a><a href='#'>删除</a></td>
-			</tr>
-		</tbody>
-	</table>
-	<p class='newp_add'><a href='#'>新建联系人</a></p>
+	<div class='detail'>
+		<span>工作性质：全职</span>
+		<span>工作地点：广州市</span>
+		<span>发布时间：2013-12-14</span>
+		<span>截至时间：</span>
+		<br />
+		<span>薪资范围：面议</span>
+		<span>招聘人数：3</span>
+		<div class='desc'>
+			<h5>工作职责：</h5>
+			<pre>
+1.推进公司管理报告体系，制定多维度分析框架，优化核算口径，进行相关系统改造，实现管理会计与预算、绩效管理衔接，并持续优化
+
+2.针对运输线路、产品建立成本模型，分析成本波动原因，提出改善方案
+
+3.搭建项目财务核算、效益分析模型，跟进评价项目成本效益
+
+4.调研业务部门管理需求，提供相应财务分析，为管理层决策提供支持
+			</pre>
+		</div>
+		<div class='desc'>
+			<h5>任职资格：</h5>
+			<pre>
+1.学历要求：博士学历
+
+2.专业要求：金融工程学、管理会计学及其相关专业
+
+3.研究方向要求：成本管理、项目管理等相关方向
+
+4.认同企业文化、具有良好沟通能力、工作严谨、执行力强、具备较强抗压与团队合作能力
+			</pre>
+		</div>
+		<div class='desc'>
+			<h5>薪资福利：</h5>
+			<pre>
+入职后享有：五险一金、配车福利、学术延伸、上海落户及其相关福利补贴
+
+公司为博士提供具有行业竞争力的薪资，具体薪资待遇面议
+			</pre>
+		</div>
+	</div>
+	<div class='addr'>
+		<span class='highlight'>简历投递邮箱：<font >hr@fengniao.com</font></span><br />
+		<span>
+一流的企业需要一流的人才竭尽全力挖掘人才认同公司的价值观，具备自主创新能力，责任心，上进心和事业心适应变革，良好的自我认知</span>
+	</div>
 </div>
 		<div id='footer'>
 			<div class='f_log'>

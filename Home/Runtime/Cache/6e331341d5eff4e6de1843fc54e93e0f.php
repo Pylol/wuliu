@@ -32,8 +32,8 @@
 					<a href='#'>收藏蜂鸟</a>
 				</span>
 				<span class='top_nav_right'>
-					<a href='__APP__/User/regist_login'>登录</a>|
-					<a href='__APP__/User/regist_login'>注册</a>
+					<a href='/User/regist_login'>登录</a>|
+					<a href='/User/regist_login'>注册</a>
 					<a href='#' class='language'>中文</a>|
 					<a href='#'>English</a>
 				</span>
@@ -45,46 +45,46 @@
 			</div>
 			<div class='menu'>
 				<ul>
-					<li class='item'><a href='__APP__/Index/index'>首页</a></li>
+					<li class='item'><a href='/Index/index'>首页</a></li>
 					<li class='item'><a href='#'>我的物流</a>
 						<ul class='c_menu'>
-							<li><a href='__APP__/Account/order'>我的订单</a></li>
-							<li><a href='__APP__/Account/transonline'>网上下单</a></li>
-							<li><a href='__APP__/Account/consignee'>联系人管理</a></li>
-							<!-- <li><a href='__APP__/Account/claims'>在线理赔</a></li> -->
-							<li><a href='__APP__/Account/message'>站内信息</a></li>
-							<li><a href='__APP__/Account/info'>个人资料设置</a></li>
-							<li><a href='__APP__/Account/coupon'>我的优惠券</a></li>
+							<li><a href='/Account/order'>我的订单</a></li>
+							<li><a href='/Account/transonline'>网上下单</a></li>
+							<li><a href='/Account/consignee'>联系人管理</a></li>
+							<!-- <li><a href='/Account/claims'>在线理赔</a></li> -->
+							<li><a href='/Account/message'>站内信息</a></li>
+							<li><a href='/Account/info'>个人资料设置</a></li>
+							<li><a href='/Account/coupon'>我的优惠券</a></li>
 						</ul>
 					</li>
 					<li class='item'><a href='#' >货物追踪</a>
 						<ul class='c_menu'>
-							<li><a href='__APP__/Track/track'>货物追踪</a></li>
+							<li><a href='/Track/track'>货物追踪</a></li>
 						</ul>
 					</li>
 					<li class='item'><a href='#' >业务介绍</a>
 						<ul class='c_menu'>
-							<li><a href='__APP__/Business/transport'>运货方式</a></li>
-							<li><a href='__APP__/Business/collect'>增值服务</a></li>
-							<li><a href='__APP__/Business/activities'>市场活动</a></li>
+							<li><a href='/Business/transport'>运货方式</a></li>
+							<li><a href='/Business/collect'>增值服务</a></li>
+							<li><a href='/Business/activities'>市场活动</a></li>
 						</ul>
 					</li>
 					<li class='item'><a href='#' >帮助与支持</a>
 						<ul class='c_menu'>
-							<li><a href='__APP__/Help/delivery'>常见问题</a></li>
+							<li><a href='/Help/delivery'>常见问题</a></li>
 							<!-- <li><a href='#'>下载中心</a></li> -->
-							<li><a href='__APP__/Help/complain'>咨询|建议|投诉</a></li>
-							<li><a href='__APP__/Help/map'>网站地图</a></li>
-							<li><a href='__APP__/Help/price'>价格/时效查询</a></li>
-							<li><a href='__APP__/Help/station'>网点查询</a></li>
+							<li><a href='/Help/complain'>咨询|建议|投诉</a></li>
+							<li><a href='/Help/map'>网站地图</a></li>
+							<li><a href='/Help/price'>价格/时效查询</a></li>
+							<li><a href='/Help/station'>网点查询</a></li>
 						</ul>
 					</li>
 					<li class='item'><a href='#' >关于蜂鸟</a>
 						<ul class='c_menu'>
-							<li><a href='__APP__/About/intro'>公司概述</a></li>
-							<li><a href='__APP__/About/news'>新闻动态</a></li>
-							<li><a href='__APP__/About/recruit'>人才招聘</a></li>
-							<li><a href='__APP__/About/contact'>联系我们</a></li>
+							<li><a href='/About/intro'>公司概述</a></li>
+							<li><a href='/About/news'>新闻动态</a></li>
+							<li><a href='/About/recruit'>人才招聘</a></li>
+							<li><a href='/About/contact'>联系我们</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -97,15 +97,15 @@
 		<ul>
 			<li><a  class='intro bold'>公司概述</a>
 				<ul>
-					<li class='active'><a href='__URL__/intro'>公司简介</a></li>
-					<li><a href='__URL__/culture'>文化理念</a></li>
-					<li><a href='__URL__/history'>发展史</a></li>
-					<li><a href='__URL__/honour'>所获奖项</a></li>
+					<li class='active'><a href='/About/intro'>公司简介</a></li>
+					<li><a href='/About/culture'>文化理念</a></li>
+					<li><a href='/About/history'>发展史</a></li>
+					<li><a href='/About/honour'>所获奖项</a></li>
 				</ul>
 			</li>
-			<li><a href='__URL__/news' class='news bold'>新闻动态</a></li>
-			<li><a class='job bold' href='__APP__/About/recruit'>人才招聘</a></li>
-			<li><a href='__APP__/About/contact' class='contact bold'>联系我们</a></li>
+			<li><a href='/About/news' class='news bold'>新闻动态</a></li>
+			<li><a class='job bold' href='/About/recruit'>人才招聘</a></li>
+			<li><a href='/About/contact' class='contact bold'>联系我们</a></li>
 		</ul>
 	</span>
 	<span id='ent_bottom'></span>
@@ -182,8 +182,7 @@
 					<li><a href='#'>网上下单</a></li>
 					<li><a href='#'>订单管理</a></li>
 					<li><a href='#'>已有账单</a></li>
-					<li><a href='#'>在线理赔</a></li>
-					<li><a href='#'>网点分布</a></li>
+					<li><a href='#'>网点查询</a></li>
 					<li><a href='#'>在线客服</a></li>
 					<li><a href='#'>常见问题</a></li>
 					<li><a href='#'>投诉意见</a></li>

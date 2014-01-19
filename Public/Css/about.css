@@ -397,3 +397,40 @@ pre {
 	background: #6D9A9C; 
 	color: #fff;
 }
+/*newsinfo.css*/
+.news_detail{
+	float: left;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 700px;
+	margin-top: 10px;
+}
+.topbar{
+	float: left;
+	width: 660px;
+	font-size: 12px;
+	margin: 10px 20px;
+	color: #555;
+}
+.topbar span{
+	float: right;
+}
+.topbar span a {
+	display: inline-block;
+	margin: 0 3px;
+}
+.news_content{
+	padding: 0 10px;
+}
+.news_content h4{
+	text-align: center;
+	color: 
+}
+
+/*newsmenu.css*/
+.newsTitle{
+	width: 500px;
+}
+.newsTime{
+	width: 200px;
+}

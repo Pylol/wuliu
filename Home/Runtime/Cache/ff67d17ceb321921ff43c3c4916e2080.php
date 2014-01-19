@@ -93,27 +93,17 @@
 	<span id='ent_top'></span>
 	<span id='ent_center'>
 		<ul>
-			<li class='active'><a href='/Account/order' class='order'>我的订单</a>
-				<!-- <ul>
-					<li class='active'><a href='/Account/order'>全部</a></li>
-					<li><a href='#'>未付款订单(0)</a></li>
-					<li><a href='#'>运输中订单(0)</a></li>
-				</ul> -->
+			<li><a  class='intro bold'>公司概述</a>
+				<ul class='childmenu'>
+					<li class='active'><a href='/About/intro'>公司简介</a></li>
+					<li><a href='/About/culture'>文化理念</a></li>
+					<li><a href='/About/history'>发展史</a></li>
+					<li><a href='/About/honour'>所获奖项</a></li>
+				</ul>
 			</li>
-			<li><a href='/Account/transonline' class='transonline'>网上下单</a></li>
-			<li><a href='/Account/consignee' class='consignee'>联系人管理</a></li>
-			<!-- <li><a href='/Account/claims' class='claims'>在线理赔</a> -->
-				
-			</li>
-			<li><a href='/Account/message' class='message'>站内信息</a>
-				<!-- <ul>
-					<li><a href='/Account/message'>全部</a></li>
-					<li><a href='#'>未读信息(0)</a></li>
-					<li><a href='#'>已读信息</a></li>
-				</ul> -->
-			</li>
-			<li><a href='/Account/info' class='info'>个人资料的设置</a></li>
-			<li><a href='/Account/coupon' class='coupon'>我的优惠券</a></li>
+			<li><a href='/About/news' class='news bold'>新闻动态</a></li>
+			<li><a class='job bold' href='/About/recruit'>人才招聘</a></li>
+			<li><a href='/About/contact' class='contact bold'>联系我们</a></li>
 		</ul>
 	</span>
 	<span id='ent_bottom'></span>
@@ -131,42 +121,27 @@
 	</div>
 </div>
 <div id='content'>
-	<h3>联系人管理</h3>
-	<div class='query'>
-		<form action='' method='get'>
-			<label>关键字：</label>
-			<div class='select schclass'>
-				<input type='text' value='姓名' readonly/>
-				<span>
-					<ul class='option'>
-						<li>姓名</li>
-						<li>手机号</li>
-					</ul>
-				</span>
-			</div>
-			<input type='text' />
-			<input type='submit' value='查询' />
-		</form>
+	<div class='headtop'>
+		<a href='__URL__/news'>新闻动态</a> > <a href='/About/newsmenu'>行业动态</a> > <span>内容详情</span>
 	</div>
-	<table class='tb'>
-		<thead>
-			<tr>
-				<td class='name'>姓名</td>
-				<td class='ph'>手机</td>
-				<td class='addr'>地址</td>
-				<td class='opt'>操作</td>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>张三丰</td>
-				<td>187****1234</td>
-				<td>湖南省湘潭市雨湖区湖南科技大学</td>
-				<td><a href='#'>修改</a><a href='#'>删除</a></td>
-			</tr>
-		</tbody>
-	</table>
-	<p class='newp_add'><a href='#'>新建联系人</a></p>
+	<div class='news_detail'>
+		<p class='topbar'>
+			2014-01-10 18:01:17
+			<span>
+				<a href="#">上一篇</a>
+				<a href='#'>下一篇</a>
+			</span>
+		</p>
+		<div class='news_content'>
+			<h4>2012年1-5月物流运行分析</h4>
+			<pre>
+	1-5月我国社会物流需求增幅回落，但依然保持较快增长，社会物流总费用增长较快, 物流业增加值稳步增长，物流业固定资产投资继续回落。物流企业成本高、服务价格低、效益下滑情况没有明显改观。1-5月我国物流运行的主要特点：社会物流需求增幅继续回、社会物流总费用增长较快、物流业增加值稳步增长、物流相关行业固定资产投资继续回落、物流服务价格低位运行、物流企业效益继续下滑。
+ 	展望后市，物流业快速发展的有利因素增多。一是通胀压力进一步降低为宏观调控提供了空间；二是产业结构继续呈改善迹象，装备制造及新兴产业发展较快，基础原材料工业增速下降，反映出我国发展新兴产业、振兴装备工业、控制过剩产能等结构调整政策效果已经显现；三是网络购物及电子商务市场日益繁荣增加了消费性物流需求；四是政策措施对物流业发展支撑作用进一步增强，近日多部委联合出台的《关于鼓励和引导民间投资进入物流领域的实施意见》从引导投资、理顺体制、市场环境以及发展民营物流企业等四个方面提出具体措施。
+
+来源：物流与采购网 
+			</pre>
+		</div>
+	</div>
 </div>
 		<div id='footer'>
 			<div class='f_log'>

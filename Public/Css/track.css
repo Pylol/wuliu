@@ -1,32 +1,35 @@
 .sresult {
-	width: 700px;
+    width: 700px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    padding-bottom: 10px;
 	min-height: 180px;
-	margin-top: 10px;
-	float: left;
 }
 .track{
 	width: 400px;
 	float: left;
-	background: #eee;
     min-height: 180px;
     padding-bottom: 10px;
 }
 .shis {
 	width: 290px;
 	min-height: 180px;
-	background: #eee;
 	float: right;
 }
 .sresult h5{
-    color: #6D9A9C;
-    width: 100%;
-    height: 20px;
-    line-height: 20px;
-    padding-left: 5px;
+    color: #729DA0;
+    width: 93%;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 5px;
+    padding-left: 10px;
+    border-bottom: 1px solid #ccc;
 }
 .track p {
     color: #555;
-    font-size: 13px;
+    font-size: 12px;
     padding-left: 15px;
     line-height: 20px;
     width: 380px;
@@ -35,11 +38,11 @@
     width: 290px;
     height: 25px;
     line-height: 25px;
+    font-size: 12px;    
 }
 .shis ul li span{
     width: 195px;
     float: left;
-    font-size: 13px;    
     color:#555;
     padding-left: 5px;
 }

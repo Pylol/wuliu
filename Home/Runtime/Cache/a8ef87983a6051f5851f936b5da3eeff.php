@@ -93,27 +93,17 @@
 	<span id='ent_top'></span>
 	<span id='ent_center'>
 		<ul>
-			<li class='active'><a href='/Account/order' class='order'>我的订单</a>
-				<!-- <ul>
-					<li class='active'><a href='/Account/order'>全部</a></li>
-					<li><a href='#'>未付款订单(0)</a></li>
-					<li><a href='#'>运输中订单(0)</a></li>
-				</ul> -->
+			<li><a  class='intro bold'>公司概述</a>
+				<ul class='childmenu'>
+					<li class='active'><a href='/About/intro'>公司简介</a></li>
+					<li><a href='/About/culture'>文化理念</a></li>
+					<li><a href='/About/history'>发展史</a></li>
+					<li><a href='/About/honour'>所获奖项</a></li>
+				</ul>
 			</li>
-			<li><a href='/Account/transonline' class='transonline'>网上下单</a></li>
-			<li><a href='/Account/consignee' class='consignee'>联系人管理</a></li>
-			<!-- <li><a href='/Account/claims' class='claims'>在线理赔</a> -->
-				
-			</li>
-			<li><a href='/Account/message' class='message'>站内信息</a>
-				<!-- <ul>
-					<li><a href='/Account/message'>全部</a></li>
-					<li><a href='#'>未读信息(0)</a></li>
-					<li><a href='#'>已读信息</a></li>
-				</ul> -->
-			</li>
-			<li><a href='/Account/info' class='info'>个人资料的设置</a></li>
-			<li><a href='/Account/coupon' class='coupon'>我的优惠券</a></li>
+			<li><a href='/About/news' class='news bold'>新闻动态</a></li>
+			<li><a class='job bold' href='/About/recruit'>人才招聘</a></li>
+			<li><a href='/About/contact' class='contact bold'>联系我们</a></li>
 		</ul>
 	</span>
 	<span id='ent_bottom'></span>
@@ -131,42 +121,37 @@
 	</div>
 </div>
 <div id='content'>
-	<h3>联系人管理</h3>
-	<div class='query'>
-		<form action='' method='get'>
-			<label>关键字：</label>
-			<div class='select schclass'>
-				<input type='text' value='姓名' readonly/>
-				<span>
-					<ul class='option'>
-						<li>姓名</li>
-						<li>手机号</li>
-					</ul>
-				</span>
-			</div>
-			<input type='text' />
-			<input type='submit' value='查询' />
-		</form>
+	<div class='headtop'>
+		<a href='__URL__/news'>新闻动态</a> > <span>行业动态</span>
 	</div>
-	<table class='tb'>
-		<thead>
-			<tr>
-				<td class='name'>姓名</td>
-				<td class='ph'>手机</td>
-				<td class='addr'>地址</td>
-				<td class='opt'>操作</td>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>张三丰</td>
-				<td>187****1234</td>
-				<td>湖南省湘潭市雨湖区湖南科技大学</td>
-				<td><a href='#'>修改</a><a href='#'>删除</a></td>
-			</tr>
-		</tbody>
-	</table>
-	<p class='newp_add'><a href='#'>新建联系人</a></p>
+	<div class='jobinfo'>
+		<table>
+			<thead>
+				<tr>
+					<td class='newsTitle'>文章标题</td>
+					<td class='newsTime'>发布时间</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href='/About/newsinfo'>德邦物流2014年外请合同车招标公告 </a></td>
+					<td>2013-12-15 19:42:32</td>
+				</tr>
+				<tr class='odd'>
+					<td><a href='__URL__/recruit_detail'>德邦物流2014年外请合同车招标公告 </a></td>
+					<td>2013-12-15 19:42:32</td>
+				</tr>
+				<tr>
+					<td><a href='__URL__/recruit_detail'>德邦物流2014年外请合同车招标公告 </a></td>
+					<td>2013-12-15 19:42:32</td>
+				</tr>
+				<tr class='odd'>
+					<td><a href='__URL__/recruit_detail'>德邦物流2014年外请合同车招标公告 </a></td>
+					<td>2013-12-15 19:42:32</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 </div>
 		<div id='footer'>
 			<div class='f_log'>
